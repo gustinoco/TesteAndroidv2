@@ -10,16 +10,16 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="br.com.bankapp.bankapp.view.login.presentation.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <meta-data
                 android:name="io.fabric.ApiKey"
                 android:value="cb7d64058037dde7f68a55923517b499c35b6da3" />
+
     </application>
 
 
